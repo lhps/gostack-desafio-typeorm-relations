@@ -15,7 +15,7 @@ class OrdersRepository implements IOrdersRepository {
     // TODO
     const order = this.ormRepository.create({
       customer,
-      orders_products: products,
+      order_products: products,
     });
 
     await this.ormRepository.save(order);
