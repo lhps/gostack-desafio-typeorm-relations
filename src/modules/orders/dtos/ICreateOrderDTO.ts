@@ -6,6 +6,10 @@ interface IProduct {
   quantity: number;
 }
 
+// export default interface ICreateOrderDTO {
+//   customer: Customer;
+//   products: IProduct[];
+// }
 export default interface ICreateOrderDTO {
   customer: Customer;
   products: IProduct[];
